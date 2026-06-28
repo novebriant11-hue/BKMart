@@ -1,0 +1,2 @@
+# Bhakti-Karya-B2B-B2C-Digital-Platform-End-to-End-Online-Purchasing-Stock-Management-Solution
+Web dinamis 2 sisi (Admin&amp;User) untuk digitalisasi pemesanan bahan baku secara online diAgen Bhakti Karya.Fitur Utama:  Sisi User:Menjelajahi katalog bahan baku, masuk ke keranjang belanja, dan melakukan pemesanan online. Sisi Admin: Panel dasbor khusus untuk memantau, memproses, dan mengelola data.Tech Stack: HTML, CSS, JavaScript,HeidiSQL,Laragon
