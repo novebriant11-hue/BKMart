@@ -1,0 +1,56 @@
+/* style.css - Kustomisasi UI Web Desktop & Responsif Warung Maju Jaya */
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Transisi halus saat ganti halaman */
+.page-fade {
+    animation: pageFade 0.35s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+@keyframes pageFade {
+    from {
+        opacity: 0;
+        transform: translateY(15px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Efek Glassmorphism transparan premium untuk komponen Navigasi Utama */
+.glass-nav {
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+}
+
+/* Hover interaktif premium untuk kartu produk di web */
+.product-card-web {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.product-card-web:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 20px 35px rgba(79, 111, 82, 0.15);
+}
+
+/* Menghilangkan scrollbar bawaan browser untuk area promo */
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+.no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+/* Indikator aktif pada menu navigasi desktop */
+.nav-link-active {
+    color: #4F6F52 !important;
+    font-weight: 700;
+    border-bottom: 3px solid #4F6F52;
+}
+.dark .nav-link-active {
+    color: #DDEED7 !important;
+    border-bottom: 3px solid #DDEED7;
+}
